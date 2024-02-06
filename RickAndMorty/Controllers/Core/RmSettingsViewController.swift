@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// Controller to show varius app options and settings
 class RmSettingsViewController: UIViewController {
 
     override func viewDidLoad() {
