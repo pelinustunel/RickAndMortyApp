@@ -76,6 +76,8 @@ final class RMRequest {
     public var url : URL? {
         return URL(string: urlString)
     }
-    
-    
+}
+
+extension RMRequest{
+    static let listCharactersRequests = RMRequest(endpoint: .character)
 }
